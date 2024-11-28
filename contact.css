@@ -1,0 +1,686 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+
+    --heading-font: "Fjalla One", sans-serif;
+    --para-font: "Raleway", sans-serif;
+    --text-color: #f3c242;
+    --heading-weight: 500;
+    --para-text-color: #cecece;
+
+}
+
+::selection{
+
+    background-color: #f3c242;
+    color: #131313;
+
+}
+
+/** Header section */
+header {
+
+    height: 6rem;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    z-index: 99999;
+
+}
+
+nav>.logo {
+
+    margin-left: 5%;
+    line-height: 6rem;
+
+}
+
+nav>.menu {
+
+    margin-right: 5%;
+
+}
+
+.menu>ul li {
+
+    display: inline-block;
+    padding-left: 40px;
+    line-height: 4rem;
+    font-size: 16px;
+    font-family: "Raleway",
+        sans-serif;
+    font-weight: 500;
+
+
+
+}
+
+.menu>ul li a {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.menu a:active {
+
+    color: #f3c242;
+
+}
+
+#mainMenu>i {
+
+    color: #f3c242;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    display: none;
+
+}
+
+.responsive {
+
+    background-color: #000;
+    width: 100%;
+    display: none;
+    position: relative;
+    z-index: 9999;
+
+}
+
+#responsiveMenu {
+
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
+
+}
+
+#responsiveMenu>li a {
+
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: var(--para-font);
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+
+#responsiveMenu>li a:hover {
+
+    color: #f3c242;
+    transition: all 0.5s ease;
+
+}
+
+/** Hero section */
+
+.herosection{
+
+    width: 100%;
+    background-image: url(img/contactimg/priscilla-du-preez-NEXmx_EI9j0-unsplash.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    margin-top: -100px;
+
+}
+
+.herosection > .coloroverlay{
+
+    height: 100%;
+    background-color: #131313cf;
+
+}
+
+.coloroverlay > .textsection{
+
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.textsection > .text{
+
+    text-align: center;
+    width: 440px;
+    
+}
+
+.text > h1{
+
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+    font-size: 100px;
+
+}
+
+.text > p{
+
+    color: #cecece;
+    font-family: var(--para-font);
+
+
+}
+
+/** Submain Section */
+
+.submainsection{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #131313;
+
+}
+
+.submainsection > .maintextsection{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.maintextsection > .contactsection{
+
+    width: 700px;
+    background-color: #f3c242;
+    height: 450px;
+    position: relative;
+    z-index: 9999;
+    left: 5%;
+
+}
+
+.contactsection > .contacttext{
+
+    width: 500px;;
+    padding: 70px;
+
+}
+
+.contacttext > h2{
+
+    color: #131313;
+    font-size: 40px;
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+
+}
+
+.contacttext > p{
+
+    font-family: var(--para-font);
+    line-height: 25px;
+    font-size: 15px;
+
+}
+
+.contacttext > .icontext{
+
+    height: 280px;
+    padding-top: 30px;
+    font-family: var(--para-font);
+
+}
+
+/** Phone Icon section */
+
+.icontext > .ph{
+
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 20px;
+
+}
+
+.ph > .phsection{
+
+    background-color: #131313;
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.ph > span{
+
+    font-size: 15px;
+    font-weight: var(--heading-weight);
+
+}
+
+.icontext > .ph i{
+
+    color: #fff;
+
+}
+
+/** Email Icon section */
+
+.email {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.email > .emailsection{
+
+    background-color: #131313;
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.emailsection > i{
+
+    color: #fff;
+
+}
+
+.email > span{
+
+    font-weight: var(--heading-weight);
+
+}
+
+/** Address icon section */
+
+.address{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.address > .addresssection{
+
+    background-color: #131313;
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.addresssection > i{
+
+    color: #fff;
+
+}
+
+.address > span{
+
+    font-weight: var(--heading-weight);
+    line-height: 20px;
+
+}
+
+/** Form section */
+
+.maintextsection > .formsection{
+
+    background-image: url(img/contactimg/noah-carter-_TJ22WxXJ8U-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 700px;
+
+}
+
+.formsection > .formcoloroverlay{
+
+    background-color: #13131397;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formcoloroverlay > .formpart{
+
+    width: 70%;
+    
+}
+
+.formpart > form input:first-child{
+
+    width: 500px;
+    height: 40px;
+    outline: none;
+    font-family: var(--para-font);
+    padding-left: 20px;
+    font-weight: var(--heading-weight);
+    color: #9f9f9f;
+    font-size: 15px;
+
+}
+
+.formpart > form input{
+
+    width: 500px;
+    height: 40px;
+    outline: none;
+    font-family: var(--para-font);
+    padding-left: 20px;
+    font-weight: var(--heading-weight);
+    color: #9f9f9f;
+    font-size: 15px;
+
+}
+
+.formpart > form input:last-child{
+
+    width: 200px;
+    padding-left: 0px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #f3c242;
+    cursor: pointer;
+    color: var(--text-color);
+    text-transform: uppercase;
+
+}
+
+.formpart > form textarea{
+
+    outline: none;
+    font-family: var(--para-font);
+    padding-left: 20px;
+    font-weight: var(--heading-weight);
+    color: #9f9f9f;
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+
+/** Guitar Image Section */
+
+.guitarimg{
+
+    width: 100%;
+    background-color: #131313;
+    height: 40vh;
+    position: relative;
+
+}
+
+.guitarimg > img{
+
+    height: 450px;
+    position: absolute;
+    top: -250px;
+    left: 45%;
+    z-index: 9999;
+
+}
+
+/** Footer section */
+
+footer {
+
+    height: 70vh;
+    background-color: #131313;
+
+}
+
+.footerdiv {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.footerdiv>.logoandtext {
+
+    height: 40vh;
+    width: 500px;
+    padding-left: 80px;
+
+}
+
+.logoandtext>img {
+
+    width: 230px;
+    margin-bottom: 15px;
+
+}
+
+.logoandtext>p {
+
+    font-size: 15px;
+    width: 230px;
+    font-family: var(--para-font);
+    color: #cecece;
+    line-height: 23px;
+    font-weight: 600;
+
+}
+
+.footerdiv>.music {
+
+    height: 40vh;
+    width: 500px;
+
+}
+
+.music>h3 {
+
+    font-size: 20px;
+    font-weight: var(--heading-weight);
+    font-family: var(--heading-font);
+    color: #f3c242;
+    margin-bottom: 50px;
+
+}
+
+.music>ul {
+
+    font-family: var(--para-font);
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.music>ul li {
+
+    line-height: 30px;
+    list-style-type: none;
+
+}
+
+.music ul>li a {
+
+    color: #cecece;
+    text-decoration: none;
+
+}
+
+.music ul>li a:hover {
+
+    color: #f3c242;
+    transition: all 0.3s ease-in;
+
+}
+
+.footerdiv>.band {
+
+    height: 40vh;
+    width: 500px;
+
+}
+
+.band>h3 {
+
+    color: #f3c242;
+    font-family: var(--heading-font);
+    font-size: 20px;
+    font-weight: var(--heading-weight);
+    margin-bottom: 50px;
+
+}
+
+.band>ul {
+
+    color: #cecece;
+    font-family: var(--para-font);
+    font-weight: var(--heading-weight);
+    font-size: 15px;
+
+}
+
+.band>ul li {
+
+    line-height: 30px;
+    list-style-type: none;
+
+}
+
+.band>ul li a {
+
+    color: #cecece;
+    text-decoration: none;
+
+}
+
+.band > ul li a:hover{
+
+    color: #f3c242;
+    transition: all 0.5s ease-in;
+
+}
+
+.footerdiv>.contact {
+
+    height: 40vh;
+    width: 500px;
+
+}
+
+.contact>h3 {
+
+    font-size: 20px;
+    color: #f3c242;
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+    margin-bottom: 50px;
+
+}
+
+.contact>address {
+
+    line-height: 30px;
+    color: #cecece;
+    font-weight: var(--heading-weight);
+    font-family: var(--para-font);
+    font-size: 15px;
+
+}
+
+.footermenusection {
+
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.footermenusection>ul li {
+
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 15px;
+
+}
+
+.footermenusection>ul li a {
+
+    color: #f3c242;
+    text-decoration: none;
+    font-family: var(--para-font);
+    font-weight: var(--heading-weight);
+
+}
+
+.footermenusection>ul li a:hover {
+
+    color: #cecece;
+    transition: all 0.3s ease-in;
+
+}
+
+.footermenusection>.socialicon {
+
+    margin-top: 20px;
+    font-size: 20px;
+    color: #f3c242;
+
+}
+
+.footermenusection>.socialicon i {
+
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.footermenusection>.socialicon i:hover {
+
+    color: #cecece;
+    transition: all 0.3s ease-in;
+
+}
+
+hr {
+
+    background-color: #f3c242;
+    height: 2px;
+    border: none;
+
+}
+
+/** Copyright section */
+.copyrightsection {
+
+    color: #fff;
+    text-align: center;
+    height: 90px;
+
+}
+
+.copyrightsection>p {
+
+    line-height: 5.5rem;
+    font-size: 15px;
+    font-family: var(--para-font);
+
+}

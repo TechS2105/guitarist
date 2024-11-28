@@ -1,0 +1,1167 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+:root{
+
+    --heading-font: "Fjalla One", sans-serif;
+    --para-font: "Raleway", sans-serif;
+    --text-color: #f3c242;
+    --heading-weight: 500;
+    --para-text-color: #cecece;
+
+}
+
+::selection{
+
+    background-color: #f3c242;
+    color: #131313;
+
+}
+
+header{
+
+    height: 6rem;
+
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+    position: relative;
+    z-index: 99999;
+
+}
+
+nav > .logo{
+
+    margin-left: 5%;
+    line-height: 6rem;
+
+}
+
+nav > .menu{
+
+    margin-right: 5%;
+
+}
+
+.menu > ul li{
+
+    display: inline-block;
+    padding-left: 40px;
+    line-height: 4rem;
+    font-size: 16px;
+    font-family: "Raleway",
+        sans-serif;
+    font-weight: 500;
+
+    
+
+}
+
+.menu > ul li a{
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.menu a:active{
+
+    color: #f3c242;
+
+}
+
+#mainMenu > i{
+
+    color: #f3c242;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    display: none;
+
+}
+
+.responsive{
+
+    background-color: #000;
+    width: 100%;
+    display: none;
+    position: relative;
+    z-index: 9999;
+
+}
+
+#responsiveMenu{
+
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
+
+}
+
+#responsiveMenu > li a{
+
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: var(--para-font);
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+
+#responsiveMenu > li a:hover{
+
+    color: #f3c242;
+    transition: all 0.5s ease;
+
+}
+
+/** hero section is starting from here */
+
+.heroSection{
+
+    background-image: url(img/hero-section-min.jpg);
+    height: 150vh;
+    background-size: cover;
+    background-position: top center;
+    margin-top: -130px;
+
+}
+
+.colorOverlay{
+
+    background-color: rgba(0, 0, 0, 0.407);
+    height: 100%;
+    position: relative;
+
+}
+
+.colorOverlay > .textSection{
+
+    height: 100%;
+    position: absolute;
+    top: 28%;
+    left: 6%;
+    line-height: 6rem;
+    font-family: "Fjalla One",
+        sans-serif;
+
+}
+
+.textSection > span{
+
+    color: #f3c242;
+    font-size: 25px;
+
+}
+
+.textSection > h1{
+
+    color: #fff;
+    font-size: 90px;
+    /* line-height: 8rem; */
+    font-weight: 500;
+
+}
+
+.textSection > a {
+
+    line-height: 10rem;
+
+}
+
+.textSection > a button{
+
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #f3c242;
+    color: #f3c242;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 5rem;
+
+}
+
+.textSection > a button:hover{
+
+    background-color: #f3c242;
+    color: black;
+    transition: all 0.3s ease-in;
+
+}
+
+.socialIcon{
+
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 1rem;
+
+}
+
+.socialIcon > .fb{
+
+    background-color: #f3c242;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.socialIcon > .twitter{
+
+    background-color: #f3c242;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.socialIcon > .insta{
+
+    background-color: #f3c242;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.socialIcon > .yt{
+
+    background-color: #f3c242;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.socialIcon a{
+
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+
+}
+
+/** Sub section is starting from here */
+
+.subSection{
+
+    background-image: url(img/tim-toomey-eiY4KJ62P5Q-unsplash.jpg);
+    height: 450vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.subSecetionColorOverlay{
+
+    background-color: #131313d7;
+    height: 100%;
+
+}
+
+.subTextSection{
+
+    width: 1350px;
+    background-color: #000;
+    height: 350px;
+    position: relative;
+    top: -50px;
+    left: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.subTextSection > h2{
+
+    color: #f3c242;
+    font-family: "Fjalla One",
+        sans-serif ;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 40px;
+
+}
+
+.subTextSection > p{
+
+    width: 1200px;
+    font-family: "Raleway",
+        sans-serif;
+    margin-bottom: 40px;
+
+}
+
+.subTextSection > h3{
+
+    color: #fff;
+    font-family: "Fjalla One",
+        sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+/** Guiter pick section is start from here */
+
+.guiterPick{
+
+    text-align: center;
+
+}
+
+.guiterPick > h2{
+
+    color: #f3c242;
+    font-size: 40px;
+    font-family: "Fjalla One",
+        sans-serif;
+    font-weight: 500;
+
+}
+
+.guiterPick > p{
+
+    color: #fff;
+    font-family: "Raleway",
+        sans-serif;
+
+}
+
+.guiterPick > img{
+
+    /* width: 200px; */
+    height: 300px;
+    object-fit: cover;
+
+}
+
+/** About Me section is start from here */
+
+.aboutMeSection{
+
+    margin-top: 5rem;
+    display: flex;
+    gap: 10rem;
+    background-color: #00000046;
+
+}
+
+.imgSection > img{
+
+    width: 760px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.aboutMe{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.aboutMe > h2{
+
+    color: #f3c242;
+    font-family: "Fjalla One",
+        sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.aboutMe > p{
+
+    color: #cecece;
+    font-family: "Raleway",
+        sans-serif;
+    width: 480px;
+    line-height: 25px;
+    font-weight: 500;
+
+}
+
+/** Live studio section */
+
+.liveStudioSection{
+
+    display: flex;
+    background-color: #00000046;
+
+}
+
+.liveStudioImgSection{
+
+    width: 760px;
+
+}
+
+.liveStudioImgSection > img{
+
+    width: 760px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.liveStudioAboutMe{
+
+    width: 760px;
+
+}
+
+.liveStudioAboutMe{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.liveStuioTextSection{
+
+    width: 480px;
+    
+}
+
+.liveStuioTextSection > h2{
+
+    color: var(--text-color);
+    font-family: "Fjalla One",
+        sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.liveStuioTextSection > p{
+
+    color: #cecece;
+    font-family: var(--para-font);
+    width: 480px;
+    line-height: 25px;
+    font-weight: 500;
+
+}
+
+.professionalSkillSection{
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+    padding-bottom: 60px;
+
+}
+
+.professionalSkillSection > h2{
+
+    font-family: var(--heading-font);
+    color: var(--text-color);
+    font-weight: var(--heading-weight);
+    font-size: 40px;
+
+}
+
+.professionalSkillSection > p{
+
+    color: var(--para-text-color);
+    font-family: var(--para-font);
+
+}
+
+.professonalSkillImg{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 736px 736px;
+    grid-template-rows: 550px 550px;
+
+}
+
+ .colorLayer{
+
+    background-color: #00000067;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+    font-size: 40px;
+
+}
+
+.colorLayer:hover{
+
+    background-color: #00000097;
+    transition: all 0.2s ease-in;
+
+}
+
+.professonalSkillImg > .firstMusicTheory{
+
+    width: 780px;
+    height: 550px;
+    color: #f3c242;
+    background-image: url(img/tunin-by-ear-1-min.jpg);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+}
+
+.professonalSkillImg> .secondMusicTheory {
+
+    width: 780px;
+    height: 550px;
+    color: #f3c242;
+    background-image: url(img/pentatonic-scales-min.jpg);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+}
+
+.professonalSkillImg >.thirdMusicTheory {
+
+    width: 780px;
+    height: 550px;
+    color: #f3c242;
+    background-image: url(img/tuning-by-ear.jpg);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.professonalSkillImg > .fourthMusicTheory{
+    
+    width: 780px;
+    height: 550px;
+    color: #f3c242;
+    background-image: url(img/strumming-patterns-min.jpg);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+/** Guitar lessons is start from here */
+
+.guitarLesson{
+
+    height: 220vh;
+    background-color: #131313;
+
+}
+
+.guitarLesson > .guitarHeading{
+
+    text-align: center;
+    padding-top: 8rem;
+
+}
+
+.guitarHeading > h2{
+
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+    font-size: 40px;
+
+}
+
+.guitarHeading > p{
+
+    color: #fff;
+    font-family: var(--para-font);
+    font-size: 17px;
+
+}
+
+.imgTextSection{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.imgTextSection > img{
+
+    width: 700px;
+
+}
+
+.txtBox{
+
+    background-color: #f3c242;
+    width: 650px;
+    padding: 50px;
+    margin-top: 70px;
+    margin-left: -15rem;
+
+
+}
+
+.txtBox > h2{
+
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+    font-size: 40px;
+
+}
+
+#subtxt{
+
+    font-family: var(--para-font);
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+#lowertxt1{
+
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-family: var(--para-font);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+#lowertxt2{
+
+    font-family: var(--para-font);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+
+.txtBox a > button{
+
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    font-family: var(--para-font);
+    text-transform: uppercase;
+    background-color: #131313;
+    color: #f3c242;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.txtBox a > button:hover{
+
+    background-color: #fff;
+    color: #000;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+
+/** Next Tours section */
+
+.nexttour{
+
+    height: 30vh;
+
+}
+
+.nexttourheading{
+
+    padding-top: 8rem;
+    text-align: center;
+    width: 100%;
+
+}
+
+.nexttourheading > h2{
+
+    font-family: var(--heading-font);
+    font-size: 40px;
+    color: #f3c242;
+    font-weight: var(--heading-weight);
+
+}
+
+.nexttourheading > p{
+
+    color: #cecece;
+    font-family: var(--para-font);
+
+}
+
+.ticketSection{
+
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+
+}
+
+ .ticketSection > .tickettext{
+
+    width: 1350px;
+    height: 100%;
+    margin: auto;
+
+}
+
+.tickettext > .tickettextpart{
+
+    width: 100%;
+    background-color: #000000;
+    height: 6rem;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.tickettextpart > #date{
+
+    font-size: 40px;
+    font-family: var(--heading-font);
+    color: #f3c242;
+
+}
+
+.tickettextpart > #name{
+
+    font-family: var(--heading-font);
+    font-size: 25px;
+    color: snow;
+
+}
+
+.tickettextpart > #desc{
+
+    font-family: var(--heading-font);
+    font-size: 25px;
+    color: snow;
+
+}
+
+.tickettextpart a > button{
+
+    width: 200px;
+    height: 45px;
+    font-family: var(--para-font);
+    font-weight: 500;
+    font-size: 15px;
+    background-color: transparent;
+    color: #f3c242;
+    text-transform: uppercase;
+    outline: none;
+    border: 2px solid #f3c242;
+
+}
+
+.tickettextpart a > button:hover{
+
+    background-color: #f3c242;
+    color: black;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+
+}
+
+/** Get In Touch section is start form here */
+
+.getintouchsection{
+
+   width: 100%;
+   background-color: #131313;
+   height: 100vh;
+}
+
+.getintouchsection > .getintouch{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.getintouchcolorlayer > img{
+
+    width: 750px;
+    object-fit: cover;
+    opacity: 0.5;
+
+}
+
+.getintouchtext{
+
+    width: 600px;
+    margin-left: -10rem;
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+
+}
+
+.getintouchtext > span{
+
+    color: #f3c242;
+    font-family: var(--heading-font);
+    font-size: 38px;
+
+}
+
+.getintouchtext > p{
+
+    color: var(--para-text-color);
+    font-family: var(--para-font);
+    font-size: 15px;
+    margin-bottom: 40px;
+    font-weight: var(--heading-weight);
+
+}
+
+.mailsection{
+
+    width: 600px;
+    display: flex;
+    gap: 6px;
+
+}
+
+.mailsection > #mail{
+
+    width: 380px;
+    height: 50px;
+    padding-left: 10px;
+    font-family: var(--para-font);
+    font-weight: var(--heading-weight);
+    font-size: 15px;
+    color: #7e7e7e;
+    outline: none;
+
+}
+
+.mailsection > #submit{
+
+    height: 45px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid #f3c242;
+    color: #f3c242;
+    font-family: var(--para-font);
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.mailsection > #submit:hover{
+
+    background-color: #f3c242;
+    color: #131313;
+    cursor: pointer;
+
+}
+
+/** footer text section */
+
+footer{
+
+    height: 70vh;
+    background-color: #131313;
+
+}
+
+footer > .footerText{
+
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    gap: 20px;
+
+}
+
+.footerText > .box{
+
+    width: 700px;
+    /* background-color: #e5e5e5; */
+   
+
+}
+
+.footerText > .logoandtext {
+
+    padding-left: 80px;
+
+}
+
+.logoandtext > img{
+
+    width: 230px;
+    margin-bottom: 10px;
+
+}
+
+.logoandtext > p{
+
+    width: 250px;
+    color: #cecece;
+    font-family: var(--para-font);
+    line-height: 25px;
+
+}
+
+/** Music section */
+
+.footerText > .music h3{
+
+    font-size: 20px;
+    color: #f3c242;
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+    margin-bottom: 40px;
+
+}
+
+.music ul > li {
+
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.music ul > li a {
+
+    color: #cecece;
+    font-family: var(--para-font);
+    text-decoration: none;
+
+}
+
+.music ul > li a:hover{
+
+    color: #f3c242;
+    transition: all 0.3s ease-in;
+
+}
+
+/** Band section */
+
+.footerText > .band h3{
+
+    font-size: 20px;
+    color: #f3c242;
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+    margin-bottom: 40px;
+
+}
+
+.band > ul li{
+
+    list-style-type: none;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.band ul > li a{
+
+    color: #cecece;
+    font-family: var(--para-font);
+    text-decoration: none;
+
+}
+
+.band ul > li a:hover {
+
+    color: #f3c242;
+    transition: all 0.3s ease-in;
+
+}
+
+/** Contact Us section */
+
+.footerText > .contact h3{
+
+    font-size: 20px;
+    color: #f3c242;
+    font-family: var(--heading-font);
+    font-weight: var(--heading-weight);
+    margin-bottom: 40px;
+
+}
+
+.contact > address{
+
+    color: #cecece;
+    line-height: 25px;
+    font-weight: 600;
+
+}
+
+/** Footer Menu section */
+
+.footermenu{
+
+    width: 100%;
+    /* background-color: #cecece; */
+
+}
+
+.footermenu > .fmenu{
+
+    height: 100%;
+
+}
+
+.fmenu > nav{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.fmenu nav > ul{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.fmenu nav > ul li{
+
+    list-style-type: none;
+    font-size: 15px;
+
+}
+
+.fmenu ul > li a{
+
+    font-family: var(--para-font);
+    text-decoration: none;
+    color: #f3c242;
+    font-weight: 600;
+
+}
+
+.fmenu ul > li a:hover{
+
+    color: #cecece;
+
+}
+
+/** Footer Social Icon */
+
+.footersocialicon{
+
+    text-align: center;
+    height: 40px;
+    line-height: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.footersocialicon > a{
+
+    margin-right: 20px;
+    font-size: 22px;
+    color: #f3c242;
+    text-decoration: none;
+
+}
+
+.footersocialicon a > i:hover{
+
+    color: #cecece;
+
+}
+
+.copyrighttext{
+
+   height: 7rem;
+   font-family: var(--para-font);
+   line-height: 7rem;
+   text-align: center;
+   color: #cecece;
+   font-size: 15px;
+   font-weight: 700;
+
+}
+
+hr{
+
+    height: 2px;
+    background-color: #f3c242;
+    outline: none;
+    border: none;
+
+}
+
+
+
+

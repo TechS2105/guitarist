@@ -1,0 +1,581 @@
+@media(max-width:800px) and (min-width: 200px){
+
+    #mainMenu > li{
+
+        display: none;
+
+    }
+
+    .logo > img{
+
+        width: 100px;
+
+    }
+
+    #mainMenu > i{
+
+        margin-top: 20px;
+       
+        display: block;
+
+    }
+
+    #mainMenu > #close{
+
+        display: none;
+
+    }
+
+    .responsive{
+
+        margin-top: -20px;
+
+    }
+
+    .heroSection{
+
+        height: 120vh;
+
+    }
+
+    .textSection {
+
+        margin-top: -50px;
+
+    }
+
+    .textSection > h1 span{
+
+        line-height: 90px;
+
+    }
+
+    .textSection > a button{
+
+        width: 200px;
+        font-weight: 500;
+
+    }
+
+    .socialIcon {
+
+        width: 180px;
+
+    }
+
+    .socialIcon > .fb{
+
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .socialIcon > .twitter{
+
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .socialIcon > .insta{
+        
+        height: 30px;
+        width: 30px;
+
+    }
+
+    .socialIcon > .yt{
+
+        height: 30px;
+        width: 30px;
+
+    }
+
+    /** Subsection style start from here */
+
+    .subSection{
+
+        background-position: bottom center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+
+    }
+
+    .subTextSection{
+
+        width: 320px;
+        height: 400px;
+        margin: 0px auto;
+        position: relative;
+        left: 0;
+
+    }
+
+    .subTextSection > h2{
+
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    .subTextSection > p{
+
+        width: 250px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .subTextSection > h3{
+
+        font-size: 25px;
+
+    }
+
+    .guiterPick > img{
+
+        height: 150px;
+        object-fit: cover;
+
+    }
+
+    /** About Me section is start from here */
+
+    .aboutMeSection{
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .imgSection{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .imgSection > img{
+
+        width: 360px;
+        height: 250px;
+
+    }
+
+    .aboutMe{
+
+        display: flex;
+        align-items: start;
+        margin-top: -100px;
+        margin-left: 30px;
+
+    }
+
+    .aboutMe > h2{
+
+        font-size: 35px;
+
+    }
+
+    .aboutMe > p{
+
+        width: 290px;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    /** Live studio section is start from herre */
+
+    .liveStudioSection{
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 30px;
+
+    }
+
+    .liveStuioTextSection{
+
+        width: 100%;
+
+    }
+
+    .liveStudioImgSection{
+
+       display: flex;
+       justify-content: center;
+
+    }
+
+    .liveStudioImgSection > img{
+
+        width: 360px;
+        height: 250px;
+        margin: 0px auto
+
+    }
+
+    .liveStuioTextSection > h2{
+
+        font-size: 35px;
+        margin-left: 30px;
+        padding-top: 5rem;
+
+    }
+
+    .liveStuioTextSection > p{
+
+        width: 290px;
+        font-size: 15px;
+        margin-left: 30px;
+
+    }
+
+    /** Professional skill section */
+
+    .professionalSkillSection > h2{
+
+        font-size: 40px;
+
+    }
+
+    .professionalSkillSection > p{
+
+        text-align: center;
+
+    }
+
+    .professonalSkillImg{
+
+        /* display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 400px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .professonalSkillImg > .firstMusicTheory{
+
+        width: 100%;
+        height: 400px;
+        background-position: center center;
+
+    }
+
+    .firstMusicTheory h2{
+
+        font-size: 40px;
+
+    }
+
+    .professonalSkillImg > .secondMusicTheory{
+
+        width: 100%;
+        height: 400px;
+        background-position: center center;
+
+    }
+
+    .secondMusicTheory h2{
+
+        font-size: 40px;
+
+    }
+
+    .professonalSkillImg > .thirdMusicTheory{
+
+        width: 100%;
+        height: 400px;
+        background-position: center center;
+
+    }
+
+    .thirdMusicTheory h2{
+
+        font-size: 40px;
+
+    }
+
+    .professonalSkillImg > .fourthMusicTheory{
+
+        width: 100%;
+        height: 400px;
+        background-position: center center;
+
+    }
+
+    .fourthMusicTheory h2{
+
+        font-size: 40px;
+
+    }
+
+    /** Guitar Lessons */
+
+    .guitarLesson{
+
+        height: 235vh;
+
+    }
+
+    .guitarLesson > .guitarHeading{
+
+        padding-top: 5rem;
+
+    }
+
+    .imgTextSection{
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .imgTextSection > img{
+
+        width: 100%;
+    
+    }
+
+    .txtBox {
+
+        margin-top: 0px;
+        width: 100%;
+        margin-left: 0px;
+        padding: 30px 30px 30px 30px;
+
+    }
+
+    .txtBox > #subtxt{
+
+        font-size: 14px;
+
+    }
+
+    .txtBox > #lowertxt1{
+
+        font-size: 14px;
+
+    }
+
+    .txtBox > #lowertxt2{
+
+        font-size: 14px;
+
+    }
+
+    .nexttourheading{
+
+        padding-top: 50px;
+
+    }
+
+    .nexttourheading > h2{
+
+        font-size: 35px;
+
+    }
+
+    .nexttourheading > p{
+
+        font-size: 15px 
+
+    }
+
+    /** Next Tour Section */
+
+    .ticketSection{
+
+        width: 100%;
+        height: 180px;
+
+    }
+
+    .ticketSection > .tickettext{
+
+        width: 300px;
+        height: 100%;
+
+    }
+
+    .tickettext > .tickettextpart{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        padding: 10px 20px 10px 20px;
+        margin-left: -20px;
+        margin-bottom: 25px;
+
+    }
+
+    .tickettextpart > #date{
+        
+        font-size: 30px;
+
+    }
+
+    .tickettextpart > #name{
+
+        font-size: 20px;
+
+    }
+
+    .tickettextpart > #desc{
+
+        font-size: 20px;
+        margin-bottom: 19px;
+
+    }
+
+    .tickettextpart a > button{
+
+        width: 150px;
+        height: 30px;
+
+    }
+
+    /** Get in touch section */
+
+    .getintouchsection{
+
+        height:  700px;
+        display: flex;
+
+    }
+
+    .getintouch{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .getintouchcolorlayer{
+
+        display: flex;
+        justify-content: center;
+        margin-top: -5rem;
+
+    }
+
+    .getintouchcolorlayer > img{
+
+        width: 90%;
+        object-fit: cover;
+
+
+    }    
+
+    .getintouch > .getintouchtext{
+
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -10rem;
+
+    }
+
+    .getintouchtext > span{
+
+        font-size: 33px;
+        width: 350px;
+        margin: auto;
+
+    }
+
+    .getintouchtext > p{
+
+        width: 350px;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .getintouchtext > .mailsection{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+
+    }
+
+    .mailsection > #mail{
+
+        width: 330px;
+        height: 40px;
+
+    }
+
+    .mailsection > #submit{
+
+        width: 340px;
+
+    }
+
+    /** footer section */
+
+    footer{
+
+        height: 100%;
+
+    }
+
+    .footerText{
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .footerText > .box{
+
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        text-align: center;
+
+    }
+
+    .footermenu{
+
+        margin-top: 26rem;
+
+    }
+
+    .footerText > .logoandtext{
+
+       padding-left: 0px;
+       text-align: center;
+
+
+    }
+
+    .logoandtext > img{
+
+        margin: 0px auto;
+        margin-bottom: 20px;
+
+    }
+
+    .logoandtext > p{
+
+        width: 400px;
+
+    }
+
+}

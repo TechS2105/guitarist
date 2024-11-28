@@ -1,0 +1,455 @@
+@media(max-width:800px) and (min-width: 200px){
+
+    #mainMenu>li {
+
+        display: none;
+
+    }
+
+    .logo>img {
+
+        width: 100px;
+
+    }
+
+    #mainMenu>i {
+
+        margin-top: 20px;
+
+        display: block;
+
+    }
+
+    #mainMenu>#close {
+
+        display: none;
+
+    }
+
+    .responsive {
+
+        margin-top: -20px;
+
+    }
+
+    /** Hero Section is start from here */
+
+    .herosection {
+
+        height: 50vh;
+
+    }
+
+    .herosection > .colorlayer {
+
+        padding-right: 0px;
+        
+
+    }
+
+    .colorlayer > h1{
+
+        font-size: 70px;
+        width: 100%;
+
+    }
+
+    .colorlayer > p{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    /** About Me section */
+
+    .aboutme{
+
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+    }
+
+    .aboutmeimg{
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+
+    .aboutme > .aboutmeimg img{
+
+        width: 85%;
+
+    }
+
+    .aboutme > .aboutmetext{
+
+        width: 100%;
+
+    }
+
+    .aboutmetext > h2{
+
+        padding-left: 30px;
+
+    }
+
+    .aboutmetext > img{
+
+        padding-left: 30px;
+
+    }
+
+    .aboutmetext > p{
+
+        width: 330px;
+        padding-left: 30px;
+
+    }
+
+    /** Big Image Section */
+    .bigimg1{
+
+        height: 50vh;
+        width: 100%;
+
+    }
+
+    /** Band Group Solo Section */
+
+    .bandGroupSoloSection{
+
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+
+    }
+
+    .bandGroupSoloSection > .band-group{
+
+        padding-top: 18rem;
+        width: 100%;
+
+    }
+
+    .band-group > h2{
+
+        font-size: 35px;
+        padding-left: 20px;
+
+    }
+
+    .band-group > p{
+
+        font-family: var(--para-font);
+        width: 345px;
+        padding-left: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        font-size: 15px;
+
+    }
+
+    .band-group > .yankeeimg{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+
+    .yankeeimg > img{
+
+        width: 100%;
+
+    }
+
+    .band-group > .darkangels{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .darkangels > #responsiveimg{
+
+        display: block;
+
+    }
+
+    .darkangels > img{
+
+        display: none;
+        width: 100%;
+
+    }
+
+    .darkangels > #darkangelstext p{
+
+        text-align: center;
+
+    }
+
+    .guiterimg {
+
+        width: 100%;
+        margin-top: 15rem;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .soloperformance {
+
+        margin-top: -50px;
+        width: 300px;
+
+    }
+
+    .soloperformance > h3{
+
+        font-size: 35px;
+        padding-left: 20px;
+        width: 300px;
+
+    }
+
+    .soloperformance > p{
+
+        padding-left: 20px;
+        width: 345px;
+        
+
+    }
+
+    .soloperformance > #sololist{
+
+        padding-left: 20px;
+        width: 300px;
+
+    }
+
+    .soloperformance > #sololist ul{
+
+        width: 300px ;
+
+    }
+
+    /** Second big image section */
+    .bigimg2{
+
+        height: 50vh;
+
+    }
+
+    /** Award Section */
+    .awardsection{
+
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .awardsection > .awardtext h2{
+
+        width: 370px;
+        margin: auto;
+
+    }
+
+    .awardtext > p{
+
+        margin: auto;
+        width: 370px;
+
+    }
+
+    .awardsection > .awardtext .awardtextimg{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .awardtext > .awardtextimg img{
+
+        object-fit: contain;
+        height: 200px;
+        margin-bottom: 30px;
+
+    }
+
+    /** Career award section */
+
+    .awardtext2 > h2{
+
+        margin: auto;
+        width: 370px;
+
+    }
+
+    .awardtext2 > p{
+
+        width: 370px;
+        margin: auto;
+
+    }
+
+    .awardtext2 > .awardimgsection{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+        height: 100%;
+
+    }
+
+    /** Third big image */
+    .bigimg3{
+
+        height: 50vh;
+    
+    }
+
+    /** Next Tour Section */
+
+    .nexttoursection{
+
+        width: 100%;
+        height: 140vh;
+
+    }
+
+    .nexttoursection > .nexttour{
+
+        margin-top: -30rem;
+
+    }
+
+    .ticketsection{
+
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .ticketsection > .buyticket{
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 20px 10px;
+        height: 700px;
+        width: 370px;
+
+    }
+
+    .buyticket > .date{
+
+        font-size: 35px;
+
+    }
+
+    .buyticket > .text1{
+
+        font-size: 25px;
+
+    }
+
+    .buyticket > .text2{
+
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .buyticket > .btn button{
+
+        width: 150px;
+
+    }
+
+    /** Footer section */
+
+    footer{
+
+        height: 100%;
+        width: 100%;
+
+    }
+
+   footer > .footerdiv{
+
+        display: flex;
+        flex-wrap: wrap;
+   }
+
+   .footerdiv > .logoandtext{
+
+        height: 250px;
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+
+   }
+
+   .logoandtext > p{
+
+    width: 100%;
+
+   }
+
+   .footerdiv > .music{
+
+        text-align: center;
+        height: 250px;
+
+   }
+
+   .music > h3{
+
+        margin-bottom: 20px;
+
+   }
+
+   .footerdiv > .band{
+
+        text-align: center;
+        height: 250px;
+
+   }
+
+   .band > h3{
+
+        margin-bottom: 20px;
+
+   }
+
+   .footerdiv > .contact{
+
+        text-align: center;
+        height: 250px;
+
+   }
+
+   .contact > h3{
+
+        margin-bottom: 20px;
+
+   }
+   
+}
